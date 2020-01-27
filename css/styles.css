@@ -1,3 +1,67 @@
 body {
-  background-color: #EAF6F6;
+  margin: 0;
+  font-family: Cinzel;
+}
+/*Navigation CSS STARTS*/
+.topnav {
+  overflow: hidden;
+  background-color: #32004F;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 2vw 12vw;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4E8892;
+  color: #000000;
+}
+/*Navigation CSS ENDS*/
+/*background images*/
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../img/image1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.65;
+}
+.bg2 {
+  background-image: url("../img/image3.png");
+  height: 1920vw;
+  width: 1080vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/*info CSS*/
+
+.info {
+  background-color: #32004F;
+}
+.wishes {
+  margin: 0;
+  color: #00FFF0;
+  font-size: 12vw;
+  font-family: 'Great Vibes', cursive;
 }
