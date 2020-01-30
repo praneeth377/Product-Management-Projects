@@ -57,11 +57,55 @@ body, html {
 /*info CSS*/
 
 .info {
-  background-color: #32004F;
+  background-color: #000A4F;
+  margin: 0;
 }
 .wishes {
-  margin: 0;
-  color: #00FFF0;
+  margin-left: 19vw;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FF0000;
   font-size: 12vw;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.first-half, p{
+  color: white;
+  font-size: 1.8vw;
+  font-family: 'Playfair Display', serif;
+}
+
+.links,h3 {
+  color: white;
+}
+
+.eduhead {
+  margin-left: 4vw;
+}
+
+p,ul {
+  margin-bottom: 0;
+}
+
+
+.first-half {
+  display: center;
+}
+
+hr.style13 {
+	height: 10px;
+	box-shadow: 0 10vw 10vw -10vw #C2FA01 inset;
+  margin-bottom: 0;
+  width: 50vw;
+  border-style: dotted none none;
+}
+
+.edu {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+hr {
+  margin-bottom: 0;
 }
