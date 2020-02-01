@@ -22,7 +22,7 @@ body {
   color: black;
 }
 
-.topnav a.active {
+.topnav .active {
   background-color: #4E8892;
   color: #000000;
 }
@@ -61,10 +61,7 @@ body, html {
   margin: 0;
 }
 .wishes {
-  margin-left: 19vw;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 0 0 19vw;
   color: #FF0000;
   font-size: 12vw;
   font-family: 'Bebas Neue', cursive;
@@ -82,6 +79,9 @@ body, html {
 
 .eduhead {
   margin-left: 4vw;
+  font-size: 2vw;
+  margin-bottom: 0;
+
 }
 
 p,ul {
@@ -93,19 +93,54 @@ p,ul {
   display: center;
 }
 
-hr.style13 {
-	height: 10px;
-	box-shadow: 0 10vw 10vw -10vw #C2FA01 inset;
-  margin-bottom: 0;
-  width: 50vw;
-  border-style: dotted none none;
+.style13 {
+    background-color: #000A4F;
+    border-style: dotted none none;
+    height: 0;
+    border-width: 1vw;
+    border-color: #B3B9B4;
+    width: 20%;
 }
 
-.edu {
+
+.edu, .hobbies {
   font-family: 'Quicksand', sans-serif;
   color: white;
+  font-size: 1.8vw;
+}
+
+.reading-image {
+    height: 30vw;
+    width: auto;
+}
+
+h2.hobbies {
+    color: red;
+    margin-top: 0;
 }
 
 hr {
   margin-bottom: 0;
+}
+
+.short-info {
+    margin-top: 0;
+    color: white;
+}
+
+.hobbies {
+    margin-left: 1.9vw;
+    margin-top: 0;
+}
+
+.get-in-touch {
+    margin-top: 0;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+
+    font-size: 9vw;
+}
+
+.fbicon {
+    height: 20vw;
 }
